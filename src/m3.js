@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import img from 'react-bootstrap'
+import img from 'react-bootstrap';
 
 class M3 extends Component {
     render(){
