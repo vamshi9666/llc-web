@@ -1,4 +1,12 @@
 .main-con{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    margin: 5%;
+}
+.Since{flex: 1;
+
+}
+.Mission{
+    flex: 1;
+
 }

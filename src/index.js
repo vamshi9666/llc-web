@@ -1,16 +1,26 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App2 from'./m2'
+import M2 from'./m2'
+import M3 from'./m3'
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(
-   <div> 
+class APP extends Component{
+    render(){
+        return(
+            <div className="Container" >
+                <App/>
+                 <M2/>
+                 <M3/>
+                 <M4/>
+            </div> 
 
-    
-    <App/>
-    <App2/>
-   </div> 
+        );
+    }
+}
+
+ReactDOM.render(
+  <APP/> 
 , document.getElementById('root'));
 registerServiceWorker();

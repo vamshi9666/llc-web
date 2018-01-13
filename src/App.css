@@ -10,22 +10,13 @@
 .TopContainer {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-between  ;
   height: 450px;
-  margin: 1%;
+  margin: 5%;
 }
 
 .Title {
   font-size:20dp;
   text-align: center;
   font-family: 'Anton', sans-serif;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }

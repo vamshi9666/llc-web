@@ -38,7 +38,7 @@ class PanelImage extends Component {
 class App extends Component {
   render() {
     return (
-      <div  className="container">
+      <div  className="Container">
        <TopContainer/>
        <h1 className="Title">
        LIIILE LAMB CHURCH

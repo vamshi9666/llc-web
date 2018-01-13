@@ -5,14 +5,14 @@ import './m2.css' ;
 class Since extends Component{
     render(){
         return(
-            <img src="http://via.placeholder.com/500x400"/>
+            <img className="col" alt="edo okati" src="http://via.placeholder.com/450x300"/>
         );
     }
 }
 class Mission extends Component{
     render(){
         return(
-            <img src="http://via.placeholder.com/500x400"/>
+            <img className="col" alt="edo okati" src="http://via.placeholder.com/450x300"/>
         );
     }
 }
@@ -21,7 +21,7 @@ class Mission extends Component{
 class m2 extends Component{
     render(){
         return(
-           <div className="main-con">
+           <div className="row main-con">
              <Since/>
              <Mission/>
 
@@ -30,4 +30,4 @@ class m2 extends Component{
     }
 }
 
-export default  App2;
+export default  m2;
