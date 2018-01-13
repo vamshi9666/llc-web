@@ -1,19 +1,50 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import img from 'react-bootstrap'
+
+import './App.css'; 
+ 
+class Logo extends Component {
+  render(){
+    return(
+      <img className="HeadImage" alt="200x200" src="http://via.placeholder.com/200x200"/>
+      
+
+    );
+  }
+}
+class PanelImage extends Component {
+  render(){
+    return(
+      <img className="PanelImage" alt="750x400" src="http://via.placeholder.com/750x400" />
+      
+    );
+  }
+}
+
+ class TopContainer extends Component{
+   render(){
+     return(
+       <div className="TopContainer .img-fluid">
+         <Logo/>
+         <PanelImage/>
+       </div>  
+     );
+   }
+ }
+
+ 
+ 
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div  className="container">
+       <TopContainer/>
+       <h1 className="Title">
+       LIIILE LAMB CHURCH
+       </h1>
       </div>
+    
     );
   }
 }

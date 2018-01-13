@@ -7,15 +7,18 @@
   height: 80px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.TopContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 450px;
+  margin: 1%;
 }
 
-.App-title {
-  font-size: 1.5em;
+.Title {
+  font-size:20dp;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
 }
 
 .App-intro {
