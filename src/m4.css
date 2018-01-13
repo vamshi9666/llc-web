@@ -1,5 +1,3 @@
-.Img-con{
-    justify-content: center;
-    margin: 4%;
-    align-items: center;
+.img-con{
+    justify-content: center space-around;
 }
