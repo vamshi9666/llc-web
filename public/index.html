@@ -10,9 +10,20 @@
   <title> LITTLE LAMB CHURCH</title>
   </head>
   <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
+
+<script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBhC-TVh1r1ELmhsy5IqH1uBlORqLCUK3Q",
+    authDomain: "littlelambchurch-d6aae.firebaseapp.com",
+    databaseURL: "https://littlelambchurch-d6aae.firebaseio.com",
+    projectId: "littlelambchurch-d6aae",
+    storageBucket: "",
+    messagingSenderId: "981802769517"
+  };
+  firebase.initializeApp(config);
+</script>
     <div id="root"></div>
   
   </body>
