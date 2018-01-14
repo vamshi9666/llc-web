@@ -5,7 +5,9 @@ class Map extends Component{
 
     render(){
         return(
-            
+            <div className="card">
+              <img />
+            </div> 
         );
     }
 }
