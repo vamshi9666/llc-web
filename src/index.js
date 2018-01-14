@@ -11,10 +11,10 @@ class APP extends Component{
     render(){
         return(
             <div className="Container" >
-                <App/>
-                 <M2/>
-                 <M3/>
-                 <M4/>
+                <App className="row" />
+                 <M2 className="row" />
+                 <M3 className="row" />
+                 <M4 className="row" />
             </div> 
 
         );
