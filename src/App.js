@@ -15,7 +15,7 @@ class Logo extends Component {
 class PanelImage extends Component {
   render(){
     return(
-      <img className="col-10 img img-responsive" alt="750x400" src="http://via.placeholder.com/950x400" />
+      <img className="col-10 img img-responsive" alt="750x400" src="http://via.placeholder.com/1150x400" />
       
     );
   }
