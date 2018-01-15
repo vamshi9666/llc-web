@@ -1,0 +1,22 @@
+.people-scrooler{
+    overflow-y: hidden;
+    overflow-x: scroll;
+    max-width: 1200px;
+}
+.overflow-con{
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    max-height: 550px;
+    overflow-x: scroll;
+
+}
+.profile{
+    max-width: 300px;
+    margin: 10%;
+    max-height: 400px;
+
+}
+.pro-img{
+    margin: 20px;
+}

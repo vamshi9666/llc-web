@@ -6,7 +6,7 @@ import './App.css';
 class Logo extends Component {
   render(){
     return(
-      <img className="col-2 img-fluid" alt="200x200" src="http://via.placeholder.com/200x200"/>
+      <img className="img col-2 img-fluid" alt="200x200" src="http://via.placeholder.com/200x200"/>
       
 
     );
@@ -15,7 +15,7 @@ class Logo extends Component {
 class PanelImage extends Component {
   render(){
     return(
-      <img className="col-10 img-responsive" alt="750x400" src="http://via.placeholder.com/950x400" />
+      <img className="col-10 img img-responsive" alt="750x400" src="http://via.placeholder.com/950x400" />
       
     );
   }
@@ -24,7 +24,7 @@ class PanelImage extends Component {
  class TopContainer extends Component{
    render(){
      return(
-       <div className="TopContainer .img-fluid">
+       <div className="TopContainer img .img-fluid">
          <Logo/>
          <PanelImage/>
        </div>  

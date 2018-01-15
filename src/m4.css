@@ -1,3 +1,7 @@
 .img-con{
     justify-content: center space-around;
 }
+
+.img{
+    border-radius: 5%;
+  }
