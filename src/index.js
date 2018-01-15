@@ -13,12 +13,12 @@ class APP extends Component{
     render(){
         return(
             <div className="Container" >
-                <App className="img"  />
-                 <M2 className="img" />
-                 <M3 className="img" />
-                 <M4 className="img" />
-                 <Map className="img" />
-                 <People className="img" />
+                <App   />
+                 <M2  />
+                 <M3  />
+                 <M4 />
+                 <Map />
+                 <People  />
             </div> 
 
         );
