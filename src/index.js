@@ -12,7 +12,7 @@ import registerServiceWorker from './registerServiceWorker';
 class APP extends Component{
     render(){
         return(
-            <div className="Container" >
+            <div className="Container img-fluid " >
                 <App   />
                  <M2  />
                  <M3  />

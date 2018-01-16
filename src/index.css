@@ -6,7 +6,9 @@ body {
 .Container{
   display: flex;
   flex-direction: column;
-  margin: 1%;
+  margin: 0%;
+  padding: 2%;
+  background-color: #3c3a3c;
 
 }
 .img{
