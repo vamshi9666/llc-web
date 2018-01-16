@@ -4,7 +4,8 @@
 
 }
 .map{
-    outline: 1%;
+    outline-color: black;
     border-radius: 5%;
+    outline: 5%;
 
 }
