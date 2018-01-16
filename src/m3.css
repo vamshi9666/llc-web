@@ -1,12 +1,6 @@
-.x-scrooler{
-    overflow-x: scroll;
-    overflow-y: hidden;
-    height: 250px;
-    width: 1150px;
-    -ms-scroll-limit: 1150px;
-    
 
-}
+
+
 
 .img{
     border-radius: 5%;

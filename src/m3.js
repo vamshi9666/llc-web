@@ -8,25 +8,25 @@ import './m3.css';
 class M3 extends Component {
     render(){
         return(
-          <div style={{marginTop:5}} >
+          <div style={{marginTop:5}} className="img-fluid" >
 
   
       
-            <div className="row img">
-              <div className="col-sm-4 img">
-                <div className="card img">
-                 <img className="img-fluid" src="http://via.placeholder.com/200x200"/>
+            <div className="row img img-fluid max-width:30%">
+              <div className="col-sm-4 img img-fluid max-width:30%">
+                <div className="card img img-fluid max-width:30%">
+                 <img className="img-fluid max-width:30%" src="http://via.placeholder.com/200x200"/>
                 </div>
               </div>
-              <div className="col-sm-4 img">
-              <div className="card img">
-                 <img className="img-fluid" src="http://via.placeholder.com/200x200"/>
+              <div className="col-sm-4 img img-fluid max-width:30%">
+              <div className="card img imgfluid max-width:30%">
+                 <img className="img-fluid max-width:30%" src="http://via.placeholder.com/200x200"/>
                 </div>
 
               </div>
-              <div className="col-sm-4 img">
-              <div className="card img">
-                 <img className="img-fluid" src="http://via.placeholder.com/200x200"/>
+              <div className="col-sm-4 img img-fuild max-width:30%">
+              <div className="card img img-fluid max-width:30%">
+                 <img className="img-fluid max-width:30%" src="http://via.placeholder.com/200x200"/>
                 </div>
               </div>
              

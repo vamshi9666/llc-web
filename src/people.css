@@ -1,3 +1,8 @@
+
+
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css";
+
+
 .people-scrooler{
     overflow-y: hidden;
     overflow-x: scroll;
@@ -22,6 +27,3 @@
     margin: 20px;
 
 }
-
-
-@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css";
