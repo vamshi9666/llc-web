@@ -4,7 +4,7 @@ import './people.css';
 class People extends Component{
     render(){
         return(
-            <div className=" overflow-con">
+            <div className=" overflow-con img-fluid">
 
 
               

@@ -7,6 +7,7 @@ import M4 from './m4';
 import App from './App';
 import Map from'./map';
 import People from './people';
+
 import registerServiceWorker from './registerServiceWorker';
 
 class APP extends Component{
@@ -19,6 +20,7 @@ class APP extends Component{
                  <M4 className="img-fluid"/>
                  <Map className="img-fluid" />
                  <People className="img-fluid" />
+                 
             </div> 
 
         );

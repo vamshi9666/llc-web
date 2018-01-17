@@ -11,9 +11,10 @@
 .overflow-con{
     display: flex;
     flex-direction: row;
-    max-width: 1200px;
+    max-width: 1300px;
     max-height: 550px;
     overflow-x: scroll;
+    
 
 }
 .profile{

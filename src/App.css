@@ -18,6 +18,10 @@
 .Title {
   font-size: 400%;
   text-align: center;
+  margin-top: 40;
+  padding-top: 15%;
+  padding-left: 10%;
+  justify-content: center;
   font-family: 'Headland One', serif;
 }
 
