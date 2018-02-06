@@ -1,9 +1,11 @@
 {
   "name": "llc-web",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://vamshi966.github.io/llc-web",
   "dependencies": {
     "bootstrap": "^4.0.0-beta.3",
+    "gh-pages": "^1.1.0",
     "react": "^16.2.0",
     "react-bootstrap": "^0.32.0",
     "react-dom": "^16.2.0",
@@ -13,7 +15,9 @@
     "react-scrollbar": "^0.5.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start", 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

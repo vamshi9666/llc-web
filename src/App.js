@@ -16,7 +16,8 @@ class Title extends Component{
   render(){
     return(
       <h1 className="Title" >
-      LITTLE LAMB CHURCH</h1>
+      LITTLE LAMB CHURCH
+      </h1>
 
     );
   }
@@ -26,7 +27,7 @@ class Title extends Component{
    render(){
      return(
        <div className="TopContainer img img-fluid ">
-         <Logo className=" col-2 img-circle " />
+         <Logo className=" col-1 img-circle " />
 
          <Title className=" col-10" />
        </div>  

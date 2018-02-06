@@ -14,7 +14,7 @@
   display: flex;
   justify-content: space-between space-around ;
   height: 450px;
-  margin: 1;
+  margin: ;
 }
 
 .Title {
@@ -22,7 +22,6 @@
   text-align: center;
   margin-top: 40;
   padding-top: 15%;
-  padding-left: 10%;
   justify-content: center;
   font-family: 'Headland One', serif;
 }

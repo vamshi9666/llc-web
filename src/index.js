@@ -13,13 +13,13 @@ import registerServiceWorker from './registerServiceWorker';
 class APP extends Component{
     render(){
         return(
-            <div className="Container img-fluid " >
-                <App className="img-fluid"  />
-                 <M2 className="img-fluid" />
-                 <M3 className="img-fluid" />
-                 <M4 className="img-fluid"/>
-                 <Map className="img-fluid" />
-                 <People className="img-fluid" />
+            <div className="con " >
+                <App  />
+                 <M2 />
+                 <M3 />
+                 <M4 />
+                 <Map  />
+                 <People />
                  
             </div> 
 
